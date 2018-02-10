@@ -7,11 +7,20 @@ INITIALIZE_EASYLOGGINGPP
 
 int main(int argc, char**argv)
 {
+    // Initializing Google Test
     testing::InitGoogleTest(&argc, argv);
-    std::cout << "Hello world!" << std::endl;
+
+    // Try Out logging
     LOG(INFO) << "My Log hello world";
+
+    // Actual main code
     Sensors sensors;
-    sensors.
+    sensors.InitializeAllSensors();
+
+    for(;;)
+    {
+        sensors.UpdateLevels();
+    }
 
     return RUN_ALL_TESTS();
 }

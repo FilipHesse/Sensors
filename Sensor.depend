@@ -73,13 +73,34 @@
 	<boost/container/flat_set.hpp>
 	<wx/vector.h>
 
-1517513641 source:/home/pi/c++Projects/Sensor/main.cpp
+1518294936 source:/home/pi/c++Projects/Sensor/main.cpp
 	<iostream>
 	"lib/easylogging/easylogging++.h"
 	<gtest/gtest.h>
+	"Sensors.h"
 
 1517348439 /home/pi/c++Projects/Sensor/Gyroskop.h
 
 1517348439 source:/home/pi/c++Projects/Sensor/src/Gyroskop.cpp
 	"Gyroskop.h"
+
+1518295320 source:/home/pi/c++Projects/Sensor/src/Sensors.cpp
+	"Sensors.h"
+	<wiringPi.h>
+	"RotaryEncoder.h"
+	"lib/easylogging/easylogging++.h"
+
+1518300323 /home/pi/c++Projects/Sensor/include/Sensors.h
+	<memory>
+
+1518293723 source:/home/pi/c++Projects/Sensor/src/RotaryEncoder.cpp
+	"RotaryEncoder.h"
+
+1518293723 /home/pi/c++Projects/Sensor/include/RotaryEncoder.h
+
+1518297199 source:/home/pi/c++Projects/Sensor/src/PinManager.cpp
+	"PinManager.h"
+
+1518297214 /home/pi/c++Projects/Sensor/include/PinManager.h
+	<map>
 

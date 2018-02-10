@@ -15,10 +15,12 @@
 					<Add option="-g" />
 					<Add option="-pthread" />
 					<Add directory="../Sensor" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-lgtest" />
 					<Add option="-pthread" />
+					<Add option="-lwiringPi" />
 				</Linker>
 			</Target>
 			<Target title="Release">
@@ -29,6 +31,7 @@
 				<Compiler>
 					<Add option="-O2" />
 					<Add directory="../Sensor" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -36,15 +39,19 @@
 			</Target>
 		</Build>
 		<Compiler>
-			<Add option="-std=c++11" />
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
+			<Add option="-std=c++17" />
 		</Compiler>
-		<Unit filename="Gyroskop.h" />
+		<Unit filename="include/PinManager.h" />
+		<Unit filename="include/RotaryEncoder.h" />
+		<Unit filename="include/Sensors.h" />
 		<Unit filename="lib/easylogging/easylogging++.cc" />
 		<Unit filename="lib/easylogging/easylogging++.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="src/Gyroskop.cpp" />
+		<Unit filename="src/PinManager.cpp" />
+		<Unit filename="src/RotaryEncoder.cpp" />
+		<Unit filename="src/Sensors.cpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />
