@@ -2,7 +2,7 @@
 #include "easylogging++.h"
 
 PinManager::PinManager()
-: pinMap_{{e_PinNames::ROTARY_ENCODER_CLK,24},{e_PinNames::ROTARY_ENCODER_DT,23},{e_PinNames::ROTARY_ENCODER_BUTTON,18}}
+: pinMap_{{e_PinNames::ROTARY_ENCODER_CLK,5},{e_PinNames::ROTARY_ENCODER_DT,4},{e_PinNames::ROTARY_ENCODER_BUTTON,1}}
 {
     //ctor
 }
@@ -23,3 +23,4 @@ unsigned int PinManager::GetPinNumber(e_PinNames pinName) const
     }
 
 }
+

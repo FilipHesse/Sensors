@@ -2,6 +2,8 @@
 #include "lib/easylogging/easylogging++.h"
 #include <gtest/gtest.h>
 #include "Sensors.h"
+#include <chrono>
+#include <thread>
 
 INITIALIZE_EASYLOGGINGPP
 
@@ -20,6 +22,7 @@ int main(int argc, char**argv)
     for(;;)
     {
         sensors.UpdateLevels();
+        std::this_thread::sleep_for(std::chrono::milliseconds(10));
     }
 
     return RUN_ALL_TESTS();

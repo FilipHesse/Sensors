@@ -27,3 +27,42 @@
 2018-02-11 00:19:29,291 INFO [default] My Log hello world
 2018-02-11 00:42:36,344 INFO [default] My Log hello world
 2018-02-11 11:16:21,224 INFO [default] My Log hello world
+2018-02-11 11:29:02,543 INFO [default] My Log hello world
+2018-02-11 11:29:48,105 INFO [default] My Log hello world
+2018-02-11 11:31:20,784 INFO [default] My Log hello world
+2018-02-11 11:48:09,182 INFO [default] My Log hello world
+2018-02-11 11:51:06,797 INFO [default] My Log hello world
+2018-02-11 11:51:50,185 INFO [default] My Log hello world
+2018-02-11 11:54:59,910 INFO [default] New level of button: 1
+2018-02-11 11:55:52,305 INFO [default] My Log hello world
+2018-02-11 11:55:52,306 INFO [default] New level of button: 1
+2018-02-11 11:55:52,306 INFO [default] New level of button: 0
+2018-02-11 11:56:55,645 INFO [default] My Log hello world
+2018-02-11 11:56:55,646 INFO [default] New level of button: 1
+2018-02-11 11:56:55,646 INFO [default] New level of button: 0
+2018-02-11 11:57:32,801 INFO [default] My Log hello world
+2018-02-11 11:57:32,802 INFO [default] New level of button: 1
+2018-02-11 12:03:20,071 INFO [default] My Log hello world
+2018-02-11 12:03:20,073 INFO [default] New level of button: 1
+2018-02-11 12:04:08,224 INFO [default] My Log hello world
+2018-02-11 12:04:08,226 INFO [default] New level of button: 0
+2018-02-11 12:05:10,759 INFO [default] My Log hello world
+2018-02-11 12:05:10,761 INFO [default] New level of button: 0
+2018-02-11 12:05:18,959 INFO [default] My Log hello world
+2018-02-11 12:05:24,445 INFO [default] New level of button: 0
+2018-02-11 12:09:29,726 INFO [default] My Log hello world
+2018-02-11 12:09:29,727 INFO [default] New level of button: 0
+2018-02-11 12:19:35,398 INFO [default] My Log hello world
+2018-02-11 12:19:35,400 INFO [default] New level of button: 0
+2018-02-11 12:19:56,654 INFO [default] My Log hello world
+2018-02-11 12:19:56,655 INFO [default] New level of button: 0
+2018-02-11 12:26:31,935 INFO [default] My Log hello world
+2018-02-11 12:26:31,940 INFO [default] New level of button: 0
+2018-02-11 12:29:43,573 INFO [default] My Log hello world
+2018-02-11 12:29:48,179 INFO [default] New level of button: 0
+2018-02-11 12:31:02,984 INFO [default] My Log hello world
+2018-02-11 12:31:06,888 INFO [default] New level of button: 0
+2018-02-11 12:31:23,582 INFO [default] My Log hello world
+2018-02-11 12:31:42,818 INFO [default] New level of button: 0
+2018-02-11 12:32:30,650 INFO [default] My Log hello world
+2018-02-11 12:32:37,980 INFO [default] New level of button: 0

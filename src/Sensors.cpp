@@ -29,7 +29,7 @@ void Sensors::InitializeAllSensors()
 
 void Sensors::UpdateLevels()
 {
-
+    rotaryEncoder_->UpdateLevels();
 }
 
 

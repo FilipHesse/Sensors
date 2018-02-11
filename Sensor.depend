@@ -178,28 +178,38 @@
 	<boost/container/flat_set.hpp>
 	<wx/vector.h>
 
-1518300807 source:/home/pi/c++Projects/Sensor_Git/Sensors/main.cpp
+1518348652 source:/home/pi/c++Projects/Sensor_Git/Sensors/main.cpp
 	<iostream>
 	"lib/easylogging/easylogging++.h"
 	<gtest/gtest.h>
 	"Sensors.h"
+	<chrono>
+	<thread>
 
 1518343733 /home/pi/c++Projects/Sensor_Git/Sensors/include/Sensors.h
 	<memory>
 
-1518343793 source:/home/pi/c++Projects/Sensor_Git/Sensors/src/PinManager.cpp
+1518347030 source:/home/pi/c++Projects/Sensor_Git/Sensors/src/PinManager.cpp
 	"PinManager.h"
 	"easylogging++.h"
 
 1518343793 /home/pi/c++Projects/Sensor_Git/Sensors/include/PinManager.h
 	<map>
 
-1518343733 source:/home/pi/c++Projects/Sensor_Git/Sensors/src/RotaryEncoder.cpp
+1518348570 source:/home/pi/c++Projects/Sensor_Git/Sensors/src/RotaryEncoder.cpp
 	"RotaryEncoder.h"
 	"PinManager.h"
 	<wiringPi.h>
 	"Sensors.h"
+	"easylogging++.h"
 
-1518344153 /home/pi/c++Projects/Sensor_Git/Sensors/include/RotaryEncoder.h
+1518346058 /home/pi/c++Projects/Sensor_Git/Sensors/include/RotaryEncoder.h
 	<memory>
+
+1518346058 source:/home/pi/c++Projects/Sensor_Git/Sensors/src/Sensors.cpp
+	"Sensors.h"
+	<wiringPi.h>
+	"RotaryEncoder.h"
+	"easylogging++.h"
+	"PinManager.h"
 
