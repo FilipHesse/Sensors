@@ -2,9 +2,11 @@
 #include <wiringPi.h>
 #include "RotaryEncoder.h"
 #include "easylogging++.h"
+#include "PinManager.h"
 
 Sensors::Sensors()
-:   rotaryEncoder_(std::make_shared<RotaryEncoder>())
+:   pinManager_(std::make_shared<PinManager>())
+,   rotaryEncoder_(std::make_shared<RotaryEncoder>(this))
 {
 
 }
@@ -23,4 +25,15 @@ void Sensors::InitializeAllSensors()
     }
 
     rotaryEncoder_->InitInputs();
+}
+
+void Sensors::UpdateLevels()
+{
+
+}
+
+
+std::shared_ptr<const PinManager> Sensors::GetPinManager()
+{
+    return pinManager_;
 }

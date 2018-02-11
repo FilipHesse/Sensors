@@ -184,6 +184,22 @@
 	<gtest/gtest.h>
 	"Sensors.h"
 
-1518306587 /home/pi/c++Projects/Sensor_Git/Sensors/include/Sensors.h
+1518343733 /home/pi/c++Projects/Sensor_Git/Sensors/include/Sensors.h
+	<memory>
+
+1518343793 source:/home/pi/c++Projects/Sensor_Git/Sensors/src/PinManager.cpp
+	"PinManager.h"
+	"easylogging++.h"
+
+1518343793 /home/pi/c++Projects/Sensor_Git/Sensors/include/PinManager.h
+	<map>
+
+1518343733 source:/home/pi/c++Projects/Sensor_Git/Sensors/src/RotaryEncoder.cpp
+	"RotaryEncoder.h"
+	"PinManager.h"
+	<wiringPi.h>
+	"Sensors.h"
+
+1518344153 /home/pi/c++Projects/Sensor_Git/Sensors/include/RotaryEncoder.h
 	<memory>
 

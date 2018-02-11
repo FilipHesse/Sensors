@@ -1,7 +1,10 @@
 #include "RotaryEncoder.h"
 #include "PinManager.h"
+#include <wiringPi.h>
+#include "Sensors.h"
 
-RotaryEncoder::RotaryEncoder()
+RotaryEncoder::RotaryEncoder(Sensors* pSensors)
+: pSensors_ (pSensors)
 {
     //ctor
 }
@@ -13,7 +16,8 @@ RotaryEncoder::~RotaryEncoder()
 
 void RotaryEncoder::InitInputs()
 {
-    pinMode( PinManager::GetPinNumber(e_PinNames::ROTARY_ENCODER_BUTTON),  INPUT );
-    pinMode( PinManager::GetPinNumber(e_PinNames::ROTARY_ENCODER_CLK),     INPUT );
-    pinMode( PinManager::GetPinNumber(e_PinNames::ROTARY_ENCODER_DT),      INPUT );
+    std::shared_ptr<const PinManager> pinManager = pSensors_->GetPinManager();
+    pinMode( pinManager->GetPinNumber(e_PinNames::ROTARY_ENCODER_BUTTON),  INPUT );
+    pinMode( pinManager->GetPinNumber(e_PinNames::ROTARY_ENCODER_CLK),     INPUT );
+    pinMode( pinManager->GetPinNumber(e_PinNames::ROTARY_ENCODER_DT),      INPUT );
 }

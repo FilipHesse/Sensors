@@ -10,12 +10,12 @@ enum class e_PinNames
     ROTARY_ENCODER_BUTTON
 };
 
-static class PinManager
+class PinManager
 {
     public:
         PinManager();
         virtual ~PinManager();
-        unsigned int GetPinNumber(e_PinNames pinName);
+        unsigned int GetPinNumber(e_PinNames pinName) const;
     protected:
     private:
         const std::map<e_PinNames, unsigned int> pinMap_;

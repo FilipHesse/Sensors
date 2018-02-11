@@ -12,14 +12,14 @@ PinManager::~PinManager()
     //dtor
 }
 
-unsigned int PinManager::GetPinNumber(e_PinNames pinName)
+unsigned int PinManager::GetPinNumber(e_PinNames pinName) const
 {
     auto it = pinMap_.find( pinName );
     if(it != pinMap_.end()){
         return it->second;
     }
     else{
-        LOG(FATAL)<<"Pin with Name" <<to_chars(pinName)<<"not configured";
+        LOG(FATAL)<<"Pin with Name" <<static_cast<int>(pinName)<<"not configured";
     }
 
 }
