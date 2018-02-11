@@ -1,7 +1,7 @@
 #include "Sensors.h"
 #include <wiringPi.h>
 #include "RotaryEncoder.h"
-#include "lib/easylogging/easylogging++.h"
+#include "easylogging++.h"
 
 Sensors::Sensors()
 :   rotaryEncoder_(std::make_shared<RotaryEncoder>())

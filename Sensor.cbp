@@ -16,6 +16,7 @@
 					<Add option="-pthread" />
 					<Add directory="../Sensor" />
 					<Add directory="include" />
+					<Add directory="lib/easylogging" />
 				</Compiler>
 				<Linker>
 					<Add option="-lgtest" />
@@ -41,7 +42,7 @@
 		<Compiler>
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
-			<Add option="-std=c++17" />
+			<Add option="-std=c++14" />
 		</Compiler>
 		<Unit filename="include/PinManager.h" />
 		<Unit filename="include/RotaryEncoder.h" />

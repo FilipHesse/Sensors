@@ -15,7 +15,7 @@ static class PinManager
     public:
         PinManager();
         virtual ~PinManager();
-        static unsigned int GetPinNumber(e_PinNames pinName);
+        unsigned int GetPinNumber(e_PinNames pinName);
     protected:
     private:
         const std::map<e_PinNames, unsigned int> pinMap_;

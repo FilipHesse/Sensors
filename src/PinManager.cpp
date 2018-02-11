@@ -1,5 +1,5 @@
 #include "PinManager.h"
-#include "lib/easylogging/easylogging++.h"
+#include "easylogging++.h"
 
 PinManager::PinManager()
 : pinMap_{{e_PinNames::ROTARY_ENCODER_CLK,24},{e_PinNames::ROTARY_ENCODER_DT,23},{e_PinNames::ROTARY_ENCODER_BUTTON,18}}
